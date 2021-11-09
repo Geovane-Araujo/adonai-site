@@ -60,35 +60,8 @@
           <p>Principais Funcionalidades</p>
         </div>
         <div class="cards-funcionalidades">
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            dsd
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
-          </div>
-          <div class="card-func">
-            Em construção
+          <div v-for="item in funcionalidades" :key="item.text" class="card-func">
+            {{ item.description }}
           </div>
         </div>
       </div>
@@ -124,8 +97,5 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Home',
-};
+<script src="./Home.js">
 </script>
