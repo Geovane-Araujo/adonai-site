@@ -119,9 +119,9 @@ export default {
     ],
     funcionalidades: [
       {
-        icon: '',
-        text: '',
-        description: 'Aqui é uma funcionaalidades',
+        icon: 'g-icon g-dashboard',
+        title: '',
+        description: 'Aqui é uma funcionaalidadesdfdsf sdfsdfsd',
       },
       {
         icon: '',

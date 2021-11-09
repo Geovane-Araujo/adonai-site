@@ -1,3 +1,4 @@
+// https://desenvolvimentoparaweb.com/css/navegacao-ancora-smooth-scroll-css-puro/#content
 *{
   margin: 0;
   padding: 0;
@@ -173,4 +174,15 @@ section{
   display: flex;
   height: 100%;
   background-color: #518b8f;
+}
+.funcionalidade-icon{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.funcionalidade-text{
+  margin: 10px;
+  text-align: center;
 }

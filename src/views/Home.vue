@@ -61,7 +61,12 @@
         </div>
         <div class="cards-funcionalidades">
           <div v-for="item in funcionalidades" :key="item.text" class="card-func">
-            {{ item.description }}
+            <div class="funcionalidade-icon">
+              <i :class="item.icon"></i>
+            </div>
+            <div class="funcionalidade-text">
+              {{ item.description }}
+            </div>
           </div>
         </div>
       </div>
