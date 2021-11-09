@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+ }
+body{
+  height: 100vh;
+}
+#apresentacao{
+  display: flex;
+}
+.apr-left{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apr-rigth{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-rigth{
+  height: 400px;
+  width: 600px;
+  background-image: url("./img/igrejaglobal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.espacamento{
+  height: calc(100vh - 50px);
+  margin-top: 50px;
+}
+#finaleira{
+  background-color:blueviolet;
+  height: 100%;
+}
+#navheader{
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+}
+.sess{
+  height: calc(100%);
+}
+.logo{
+  position: fixed;
+  left: 0;
+  margin-left: 10px;
+  height: 50px;
+  width: 200px;
+  background-image: url("./img/adn.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.botoes{
+  position: fixed;
+  right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+section{
+  transition: all .6s ease-in-out;
+ -webkit-transition: all .6s ease-in-out;
+}
+.p{
+  font-size: 18px;
+  color: #518b8f;
+}
+.solid-black{
+}
+.text-header{
+  margin-left: 60px;
+  font-size: 50px;
+  font-style: unset;
+  text-size-adjust: 10px;
+  letter-spacing: -1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.session-title{
+  margin-top: 200px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+    color: #518b8f;
+    font-size: 40px;
+  }
+}
+.cards-funcionalidades{
+  margin: 10px 10px 0px 10px;
+  height: 220px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-func{
+  height: 100%;
+  background-color: #9fced1;
+  margin: 10px;
+  width: 18.4%;
+}
+#funcionalidades{
+}
+.cards-planos{
+  margin: 10px 10px 0px 10px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-pl{
+  height: 100%;
+  background-color: #9fced1;
+  margin: 10px;
+  width: 18.4%;
+}
