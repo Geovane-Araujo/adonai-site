@@ -99,3 +99,6 @@
 
 <script src="./Home.js">
 </script>
+<style lang="scss">
+@import "./Home.scss";
+</style>
