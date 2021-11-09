@@ -72,27 +72,31 @@
           <p>Preços e Planos</p>
         </div>
         <div class="cards-planos">
-          <div class="card-pl">
-            Em construção
-          </div>
-          <div class="card-pl">
-            Em construção
-          </div>
-          <div class="card-pl">
-            Em construção
-          </div>
-          <div class="card-pl">
-            Em construção
+          <div v-for="item in planos" :key="item.descricao" class="card-pl">
+            <div class="title-cards">
+              <div class="title-card-combo">
+                <div class="title-card-plano">
+                   {{ item.title }}
+                </div>
+                <div class="title-card-price">
+                  {{ item.price }}
+                </div>
+              </div>
+            </div>
+            <div v-for="func in item.funcoes" :key="func.text" class="funcoes">
+              {{ func.text }}
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section id="sobre" class="espacamento">
-      <div>
         <div class="session-title">
           <p>Sobre Nós</p>
         </div>
-      </div>
+        <div class="sobre-nos">
+          Olá
+        </div>
     </section>
   </div>
 </template>
