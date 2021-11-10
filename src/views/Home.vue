@@ -57,7 +57,7 @@
     <section id="funcionalidades" class="espacamento">
       <div>
         <div class="session-title">
-          <p>Principais Funcionalidades</p>
+          <p>Algumas funcionalidades que pode ajudar na gestão do ministério</p>
         </div>
         <div class="cards-funcionalidades">
           <div v-for="item in funcionalidades" :key="item.text" class="card-func">
@@ -100,7 +100,12 @@
           <p>Sobre Nós</p>
         </div>
         <div class="sobre-nos">
-          Olá
+          <div class="sobre-esquerdo">
+            Olá
+          </div>
+          <div class="sobre-direito">
+            Direito
+          </div>
         </div>
     </section>
   </div>

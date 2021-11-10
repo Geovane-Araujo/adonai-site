@@ -176,6 +176,7 @@ section{
   background-color: #518b8f;
 }
 .funcionalidade-icon{
+  margin-top: 20px;
   height: 40%;
   width: 100%;
   display: flex;
@@ -185,4 +186,11 @@ section{
 .funcionalidade-text{
   margin: 10px;
   text-align: center;
+}
+.sobre-esquerdo{
+  width: 60%;
+}
+.sobre-direito{
+  width: 40%;
+  background-color: antiquewhite;
 }

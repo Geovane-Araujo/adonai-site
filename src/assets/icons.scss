@@ -1,11 +1,14 @@
 .g-icon{
   background-repeat: no-repeat;
-  background-size: 70px;
-  width: 70px;
-  height: 70px;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
 .g-dashboard{
   background-image: url('./icons/chart.png');
+}
+.g-quadro{
+  background-image: url('./icons/cs.png');
 }
