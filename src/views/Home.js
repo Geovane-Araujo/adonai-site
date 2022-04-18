@@ -120,35 +120,35 @@ export default {
     funcionalidades: [
       {
         icon: 'g-icon g-dashboard',
-        description: 'Dashboards intuitivos e Personalizados',
+        description: 'Dashboards intuitivos e personalizados',
       },
       {
         icon: 'g-icon g-quadro',
-        description: 'Gestão Completa de Membros',
+        description: 'Gestão completa de membros',
       },
       {
-        icon: 'g-icon',
-        description: 'Acompanhamento de Novos Convertidos',
+        icon: 'g-icon g-new-names',
+        description: 'Acompanhamento de novos convertidos',
       },
       {
-        icon: 'g-icon',
+        icon: 'g-icon g-safe-file',
         description: 'Aquele lugarzinho seguro para guardar esboços e devocionais',
       },
       {
-        icon: 'g-icon',
-        description: 'Carteirinhas e Certificados Personalizados',
+        icon: 'g-icon g-certificate',
+        description: 'Carteirinhas e certificados personalizados',
       },
       {
-        icon: 'g-icon',
-        description: 'Financeiro completo com relatórios Gerenciais',
+        icon: 'g-icon g-managment-finance',
+        description: 'Financeiro completo com relatórios gerenciais',
       },
       {
-        icon: 'g-icon',
+        icon: 'g-icon g-report',
         description: 'Acompanhe os resultados de todas as igrejas do campo eclesiástico em uma só tela',
       },
       {
-        icon: 'g-icon',
-        description: 'Controle de Acesso de Usuários',
+        icon: 'g-icon g-user-security',
+        description: 'Controle de acesso de usuários',
       },
     ],
   }),
